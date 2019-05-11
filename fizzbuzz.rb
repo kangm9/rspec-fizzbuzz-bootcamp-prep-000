@@ -2,6 +2,10 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
+  if number % 3 === 0 
+    return "Fizz"
+  else 
+end
 
 escribe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
