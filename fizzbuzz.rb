@@ -2,16 +2,14 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(n)
-  
-
-def fizzbuzz(num)
-  if num % 3 == 0 && num % 5 == 0 
-    "FizzBuzz"
-  elsif num % 3 == 0
+  if n % 3 == 0 
     "Fizz"
-  elsif num % 5 == 0
+    elsif n % 5 == 0 
     "Buzz"
-  else 
+    elsif n % 3 == 0 && n % 5 == 0 
+    "FizzBuzz"
+  else
     nil
   end
-end 
+end
+
